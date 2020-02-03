@@ -13,6 +13,36 @@
 		6271938823E445AD0057F47B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6271938623E445AD0057F47B /* Main.storyboard */; };
 		6271938A23E445AE0057F47B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6271938923E445AE0057F47B /* Assets.xcassets */; };
 		6271938D23E445AE0057F47B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6271938B23E445AE0057F47B /* LaunchScreen.storyboard */; };
+		6271939C23E446120057F47B /* SimpleRedux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6271939B23E446120057F47B /* SimpleRedux.swift */; };
+		627193A023E448130057F47B /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6271939E23E448130057F47B /* CartViewController.swift */; };
+		627193A123E448130057F47B /* CartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6271939F23E448130057F47B /* CartViewController.xib */; };
+		627193A423E44A200057F47B /* CartUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627193A323E44A200057F47B /* CartUseCase.swift */; };
+		627193A723E44C570057F47B /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627193A623E44C570057F47B /* Cart.swift */; };
+		627193A923E44E420057F47B /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627193A823E44E420057F47B /* RxSwift.framework */; };
+		627193B223E44EA20057F47B /* NSObject_Rx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627193AE23E44EA10057F47B /* NSObject_Rx.framework */; };
+		627193B323E44EA20057F47B /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627193AF23E44EA10057F47B /* RxCocoa.framework */; };
+		627193B523E44EA20057F47B /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627193B123E44EA20057F47B /* RxRelay.framework */; };
+		627193B723E44F100057F47B /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627193B623E44F100057F47B /* CartViewModel.swift */; };
+		627193B923E44F1F0057F47B /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627193B823E44F1F0057F47B /* ViewModelType.swift */; };
+		627193BD23E450280057F47B /* ProductCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627193BB23E450280057F47B /* ProductCartViewController.swift */; };
+		627193BE23E450280057F47B /* ProductCartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 627193BC23E450280057F47B /* ProductCartViewController.xib */; };
+		627193C223E452780057F47B /* ProductCartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627193C023E452780057F47B /* ProductCartTableViewCell.swift */; };
+		627193C323E452780057F47B /* ProductCartTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 627193C123E452780057F47B /* ProductCartTableViewCell.xib */; };
+		627193C523E4535E0057F47B /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627193C423E4535E0057F47B /* AppState.swift */; };
+		627193C723E453B50057F47B /* CartReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627193C623E453B50057F47B /* CartReducer.swift */; };
+		627193C923E4551E0057F47B /* CartAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627193C823E4551E0057F47B /* CartAction.swift */; };
+		627193CA23E462FF0057F47B /* RxOptional.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627193B023E44EA20057F47B /* RxOptional.framework */; };
+		627193CF23E469F90057F47B /* Observable+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627193CE23E469F90057F47B /* Observable+Ext.swift */; };
+		627193D123E47E240057F47B /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627193D023E47E240057F47B /* SnapKit.framework */; };
+		627193D323E48CC20057F47B /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627193D223E48CC20057F47B /* ActivityIndicator.swift */; };
+		627193D623E5FF6A0057F47B /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627193D523E5FF6A0057F47B /* Subscription.swift */; };
+		627193DA23E6B0F90057F47B /* RecomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627193D823E6B0F90057F47B /* RecomCollectionViewCell.swift */; };
+		627193DB23E6B0F90057F47B /* RecomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 627193D923E6B0F90057F47B /* RecomCollectionViewCell.xib */; };
+		627193DF23E7E82C0057F47B /* RecommendationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627193DD23E7E82C0057F47B /* RecommendationViewController.swift */; };
+		627193E023E7E82C0057F47B /* RecommendationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 627193DE23E7E82C0057F47B /* RecommendationViewController.xib */; };
+		627193E223E7EB6C0057F47B /* RecommendationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627193E123E7EB6C0057F47B /* RecommendationViewModel.swift */; };
+		627193E423E7EC820057F47B /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627193E323E7EC820057F47B /* AppReducer.swift */; };
+		627193E923E7ECB60057F47B /* RecommReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627193E823E7ECB60057F47B /* RecommReducer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +54,36 @@
 		6271938923E445AE0057F47B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6271938C23E445AE0057F47B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6271938E23E445AE0057F47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6271939B23E446120057F47B /* SimpleRedux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleRedux.swift; sourceTree = "<group>"; };
+		6271939E23E448130057F47B /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		6271939F23E448130057F47B /* CartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartViewController.xib; sourceTree = "<group>"; };
+		627193A323E44A200057F47B /* CartUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartUseCase.swift; sourceTree = "<group>"; };
+		627193A623E44C570057F47B /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		627193A823E44E420057F47B /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		627193AE23E44EA10057F47B /* NSObject_Rx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NSObject_Rx.framework; path = Carthage/Build/iOS/NSObject_Rx.framework; sourceTree = "<group>"; };
+		627193AF23E44EA10057F47B /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		627193B023E44EA20057F47B /* RxOptional.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxOptional.framework; path = Carthage/Build/iOS/RxOptional.framework; sourceTree = "<group>"; };
+		627193B123E44EA20057F47B /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
+		627193B623E44F100057F47B /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		627193B823E44F1F0057F47B /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		627193BB23E450280057F47B /* ProductCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCartViewController.swift; sourceTree = "<group>"; };
+		627193BC23E450280057F47B /* ProductCartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCartViewController.xib; sourceTree = "<group>"; };
+		627193C023E452780057F47B /* ProductCartTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCartTableViewCell.swift; sourceTree = "<group>"; };
+		627193C123E452780057F47B /* ProductCartTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductCartTableViewCell.xib; sourceTree = "<group>"; };
+		627193C423E4535E0057F47B /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		627193C623E453B50057F47B /* CartReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartReducer.swift; sourceTree = "<group>"; };
+		627193C823E4551E0057F47B /* CartAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartAction.swift; sourceTree = "<group>"; };
+		627193CE23E469F90057F47B /* Observable+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+Ext.swift"; sourceTree = "<group>"; };
+		627193D023E47E240057F47B /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		627193D223E48CC20057F47B /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		627193D523E5FF6A0057F47B /* Subscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
+		627193D823E6B0F90057F47B /* RecomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecomCollectionViewCell.swift; sourceTree = "<group>"; };
+		627193D923E6B0F90057F47B /* RecomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecomCollectionViewCell.xib; sourceTree = "<group>"; };
+		627193DD23E7E82C0057F47B /* RecommendationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationViewController.swift; sourceTree = "<group>"; };
+		627193DE23E7E82C0057F47B /* RecommendationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecommendationViewController.xib; sourceTree = "<group>"; };
+		627193E123E7EB6C0057F47B /* RecommendationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationViewModel.swift; sourceTree = "<group>"; };
+		627193E323E7EC820057F47B /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		627193E823E7ECB60057F47B /* RecommReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommReducer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +91,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				627193B323E44EA20057F47B /* RxCocoa.framework in Frameworks */,
+				627193B523E44EA20057F47B /* RxRelay.framework in Frameworks */,
+				627193B223E44EA20057F47B /* NSObject_Rx.framework in Frameworks */,
+				627193D123E47E240057F47B /* SnapKit.framework in Frameworks */,
+				627193CA23E462FF0057F47B /* RxOptional.framework in Frameworks */,
+				627193A923E44E420057F47B /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +108,7 @@
 			children = (
 				6271937F23E445AD0057F47B /* ReduxTutorial */,
 				6271937E23E445AD0057F47B /* Products */,
+				627193AB23E44E710057F47B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +123,12 @@
 		6271937F23E445AD0057F47B /* ReduxTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				627193DC23E7E8000057F47B /* Recommendation */,
+				627193BA23E450090057F47B /* ProductCart */,
+				6271939D23E447F70057F47B /* Cart */,
+				627193A523E44C4A0057F47B /* Model */,
+				627193A223E44A0B0057F47B /* UseCase */,
+				6271939423E445CE0057F47B /* Redux */,
 				6271938023E445AD0057F47B /* AppDelegate.swift */,
 				6271938223E445AD0057F47B /* SceneDelegate.swift */,
 				6271938423E445AD0057F47B /* ViewController.swift */,
@@ -63,8 +136,127 @@
 				6271938923E445AE0057F47B /* Assets.xcassets */,
 				6271938B23E445AE0057F47B /* LaunchScreen.storyboard */,
 				6271938E23E445AE0057F47B /* Info.plist */,
+				627193B823E44F1F0057F47B /* ViewModelType.swift */,
+				627193CE23E469F90057F47B /* Observable+Ext.swift */,
+				627193D223E48CC20057F47B /* ActivityIndicator.swift */,
 			);
 			path = ReduxTutorial;
+			sourceTree = "<group>";
+		};
+		6271939423E445CE0057F47B /* Redux */ = {
+			isa = PBXGroup;
+			children = (
+				627193E723E7EC9D0057F47B /* Action */,
+				627193E623E7EC8D0057F47B /* Reducer */,
+				627193E523E7EC880057F47B /* State */,
+				6271939B23E446120057F47B /* SimpleRedux.swift */,
+				627193D523E5FF6A0057F47B /* Subscription.swift */,
+			);
+			path = Redux;
+			sourceTree = "<group>";
+		};
+		6271939D23E447F70057F47B /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				6271939E23E448130057F47B /* CartViewController.swift */,
+				6271939F23E448130057F47B /* CartViewController.xib */,
+				627193B623E44F100057F47B /* CartViewModel.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		627193A223E44A0B0057F47B /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				627193A323E44A200057F47B /* CartUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		627193A523E44C4A0057F47B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				627193A623E44C570057F47B /* Cart.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		627193AB23E44E710057F47B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				627193D023E47E240057F47B /* SnapKit.framework */,
+				627193AE23E44EA10057F47B /* NSObject_Rx.framework */,
+				627193AF23E44EA10057F47B /* RxCocoa.framework */,
+				627193B023E44EA20057F47B /* RxOptional.framework */,
+				627193B123E44EA20057F47B /* RxRelay.framework */,
+				627193A823E44E420057F47B /* RxSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		627193BA23E450090057F47B /* ProductCart */ = {
+			isa = PBXGroup;
+			children = (
+				627193BF23E452780057F47B /* Cell */,
+				627193BB23E450280057F47B /* ProductCartViewController.swift */,
+				627193BC23E450280057F47B /* ProductCartViewController.xib */,
+			);
+			path = ProductCart;
+			sourceTree = "<group>";
+		};
+		627193BF23E452780057F47B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				627193C023E452780057F47B /* ProductCartTableViewCell.swift */,
+				627193C123E452780057F47B /* ProductCartTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		627193D723E6B0D60057F47B /* RecommendationCell */ = {
+			isa = PBXGroup;
+			children = (
+				627193D823E6B0F90057F47B /* RecomCollectionViewCell.swift */,
+				627193D923E6B0F90057F47B /* RecomCollectionViewCell.xib */,
+			);
+			path = RecommendationCell;
+			sourceTree = "<group>";
+		};
+		627193DC23E7E8000057F47B /* Recommendation */ = {
+			isa = PBXGroup;
+			children = (
+				627193D723E6B0D60057F47B /* RecommendationCell */,
+				627193DD23E7E82C0057F47B /* RecommendationViewController.swift */,
+				627193DE23E7E82C0057F47B /* RecommendationViewController.xib */,
+				627193E123E7EB6C0057F47B /* RecommendationViewModel.swift */,
+			);
+			path = Recommendation;
+			sourceTree = "<group>";
+		};
+		627193E523E7EC880057F47B /* State */ = {
+			isa = PBXGroup;
+			children = (
+				627193C423E4535E0057F47B /* AppState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		627193E623E7EC8D0057F47B /* Reducer */ = {
+			isa = PBXGroup;
+			children = (
+				627193E323E7EC820057F47B /* AppReducer.swift */,
+				627193C623E453B50057F47B /* CartReducer.swift */,
+				627193E823E7ECB60057F47B /* RecommReducer.swift */,
+			);
+			path = Reducer;
+			sourceTree = "<group>";
+		};
+		627193E723E7EC9D0057F47B /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				627193C823E4551E0057F47B /* CartAction.swift */,
+			);
+			path = Action;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +269,7 @@
 				6271937923E445AD0057F47B /* Sources */,
 				6271937A23E445AD0057F47B /* Frameworks */,
 				6271937B23E445AD0057F47B /* Resources */,
+				627193CD23E463260057F47B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -125,22 +318,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				627193DB23E6B0F90057F47B /* RecomCollectionViewCell.xib in Resources */,
+				627193A123E448130057F47B /* CartViewController.xib in Resources */,
+				627193E023E7E82C0057F47B /* RecommendationViewController.xib in Resources */,
 				6271938D23E445AE0057F47B /* LaunchScreen.storyboard in Resources */,
+				627193BE23E450280057F47B /* ProductCartViewController.xib in Resources */,
 				6271938A23E445AE0057F47B /* Assets.xcassets in Resources */,
 				6271938823E445AD0057F47B /* Main.storyboard in Resources */,
+				627193C323E452780057F47B /* ProductCartTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		627193CD23E463260057F47B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxRelay.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxOptional.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/NSObject_Rx.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6271937923E445AD0057F47B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				627193D623E5FF6A0057F47B /* Subscription.swift in Sources */,
+				627193DF23E7E82C0057F47B /* RecommendationViewController.swift in Sources */,
+				627193BD23E450280057F47B /* ProductCartViewController.swift in Sources */,
 				6271938523E445AD0057F47B /* ViewController.swift in Sources */,
+				627193A423E44A200057F47B /* CartUseCase.swift in Sources */,
+				627193C523E4535E0057F47B /* AppState.swift in Sources */,
+				627193CF23E469F90057F47B /* Observable+Ext.swift in Sources */,
 				6271938123E445AD0057F47B /* AppDelegate.swift in Sources */,
+				627193C923E4551E0057F47B /* CartAction.swift in Sources */,
+				627193E923E7ECB60057F47B /* RecommReducer.swift in Sources */,
+				627193E423E7EC820057F47B /* AppReducer.swift in Sources */,
+				627193A723E44C570057F47B /* Cart.swift in Sources */,
+				627193B723E44F100057F47B /* CartViewModel.swift in Sources */,
+				627193A023E448130057F47B /* CartViewController.swift in Sources */,
+				6271939C23E446120057F47B /* SimpleRedux.swift in Sources */,
+				627193C723E453B50057F47B /* CartReducer.swift in Sources */,
+				627193D323E48CC20057F47B /* ActivityIndicator.swift in Sources */,
+				627193C223E452780057F47B /* ProductCartTableViewCell.swift in Sources */,
+				627193DA23E6B0F90057F47B /* RecomCollectionViewCell.swift in Sources */,
+				627193E223E7EB6C0057F47B /* RecommendationViewModel.swift in Sources */,
 				6271938323E445AD0057F47B /* SceneDelegate.swift in Sources */,
+				627193B923E44F1F0057F47B /* ViewModelType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +529,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ReduxTutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +550,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ReduxTutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

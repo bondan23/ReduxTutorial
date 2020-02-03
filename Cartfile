@@ -1,0 +1,4 @@
+github "ReactiveX/RxSwift" ~> 5.0
+github "RxSwiftCommunity/NSObject-Rx" ~> 5.0.2
+github "RxSwiftCommunity/RxOptional" ~> 4.1.0
+github "SnapKit/SnapKit" ~> 5.0.0

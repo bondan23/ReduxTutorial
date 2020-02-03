@@ -15,6 +15,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
 }
+
+//extension ViewController: StoreSubscriber {
+//    func receiveState(prevState: State, nextState: State) {
+//        
+//    }
+//}
 

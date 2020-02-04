@@ -23,10 +23,6 @@ protocol Reducer {
     func reduce(_ state: State, action: Action) -> State
 }
 
-//protocol StoreSubscriber {
-//    func receiveState(prevState: State, nextState: State)
-//}
-
 class Store<State: StateType>: NSObject {
     private let _dispatcher = PublishRelay<Action>()
     private let _state: BehaviorRelay<State>
@@ -115,7 +111,6 @@ class Store<State: StateType>: NSObject {
 
 
 public protocol AnyStoreSubscriber: AnyObject {
-    // swiftlint:disable:next identifier_name
     func _newState(state: Any)
 }
 

@@ -12,6 +12,7 @@ import UIKit
 
 class RecomCollectionViewCell: UICollectionViewCell {
 
+    @IBOutlet weak var priceLabel: UILabel!
     @IBOutlet weak var atcButton: UIButton!
     @IBOutlet weak var itemName: UILabel!
     @IBOutlet weak var shopName: UILabel!

@@ -14,4 +14,5 @@ enum CartAction: Action {
     case globalSwitch(Bool)
     case toggleProductAt(section: Int, index: Int)
     case toggleShopAt(section: Int)
+    case addToCart(Recommendation)
 }

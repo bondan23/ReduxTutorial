@@ -82,6 +82,22 @@ struct CartReducer: Reducer {
                 state.cartData = mutated
                 let totalPrice = grandTotal(data: mutated)
                 state.grandTotal = GrandTotalState.totalprice(totalPrice)
+            case .addToCart(let recomm):
+                let shopId = recomm.shopId
+                var product = recomm.product
+                product.isSelected = true
+                var prevState = state.cartData
+                if let getIndex = prevState.firstIndex(where: { $0.shopId == shopId}){
+                    prevState[getIndex].products.append(product)
+                } else {
+                    prevState.append(
+                        ProductGroup(shopId: shopId, products: [product])
+                    )
+                }
+                
+                state.cartData = prevState
+                let totalPrice = grandTotal(data: prevState)
+                state.grandTotal = GrandTotalState.totalprice(totalPrice)
             }
         }
         

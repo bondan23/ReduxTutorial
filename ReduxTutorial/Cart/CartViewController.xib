@@ -14,6 +14,7 @@
                 <outlet property="productCartWrapper" destination="Ber-9F-wFJ" id="Bej-SQ-XKq"/>
                 <outlet property="recomWrapper" destination="od7-wE-XDS" id="Qim-m4-GZ0"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="wrapperHeight" destination="6Nh-fV-XU2" id="rWq-pi-N5x"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>

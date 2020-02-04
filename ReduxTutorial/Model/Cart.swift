@@ -17,7 +17,7 @@ struct Product: Equatable {
 
 
 struct ProductGroup: Equatable  {
-    let groupId: Int
+    let shopId: Int
     var products: [Product]
 }
 

@@ -8,10 +8,11 @@
 
 import Foundation
 
-//struct AppReducer: Reducer {
-//    func reduce(_ state: AppState, action: Action) -> AppState {
-//        return AppState(
-//            cart: CartReducer().reduce(state, action: action)
-//        )
-//    }
-//}
+struct AppReducer: Reducer {
+    func reduce(_ state: AppState, action: Action) -> AppState {
+        return AppState(
+            cart: CartReducer().reduce(state.cart, action: action),
+            recomm: RecommReducer().reduce(state.recomm, action: action)
+        )
+    }
+}

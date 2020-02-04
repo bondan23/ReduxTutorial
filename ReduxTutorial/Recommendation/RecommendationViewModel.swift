@@ -16,7 +16,7 @@ class RecommendationViewModel: ViewModelType {
     }
     
     struct Output {
-        let recomData: Driver<[Product]>
+        let recomData: Driver<[Recommendation]>
         let showLoading: Driver<Bool>
     }
     

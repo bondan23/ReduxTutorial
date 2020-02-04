@@ -16,19 +16,18 @@ class CartViewController: UIViewController {
     @IBOutlet weak var productCartWrapper: UIView!
     @IBOutlet weak var grandTotalPrice: UILabel!
     @IBOutlet weak var recomWrapper: UIView!
+    @IBOutlet weak var wrapperHeight: NSLayoutConstraint!
     
-    
-    private let store = Store(reducer: CartReducer(), state: CartState())
+    private let store = Store(reducer: AppReducer(), state: AppState())
     private let viewModel = CartViewModel(useCase: CartUseCase())
+    private var isShow = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
         store.subscribe(self) {
-            return $0.select{
-                $0.grandTotal
-            }
+            return $0
         }
         
         bindViewModel()
@@ -41,13 +40,13 @@ class CartViewController: UIViewController {
             make.edges.equalToSuperview()
         }
         
-//        let recomm = RecommendationViewController(store: store)
-//        addChild(recomm)
-//        recomm.didMove(toParent: self)
-//        self.recomWrapper.addSubview(recomm.view)
-//        recomm.view.snp.makeConstraints { make in
-//            make.edges.equalToSuperview()
-//        }
+        let recomm = RecommendationViewController(store: store)
+        addChild(recomm)
+        recomm.didMove(toParent: self)
+        self.recomWrapper.addSubview(recomm.view)
+        recomm.view.snp.makeConstraints { make in
+            make.edges.equalToSuperview()
+        }
     }
 
     private func bindViewModel() {
@@ -78,9 +77,13 @@ class CartViewController: UIViewController {
 
 
 extension CartViewController: StoreSubscriber {
-    func newState(state: GrandTotalState) {
-        if case let .totalprice(price) = state {
+    func newState(state: AppState) {
+        if case let .totalprice(price) = state.cart.grandTotal {
             grandTotalPrice.text = price
+        }
+        
+        if state.recomm.hideRecomm {
+            wrapperHeight.constant = 0
         }
     }
 }

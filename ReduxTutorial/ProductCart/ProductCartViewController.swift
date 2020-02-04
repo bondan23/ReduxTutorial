@@ -13,14 +13,16 @@ class ProductCartViewController: UIViewController {
     var indicator = UIActivityIndicatorView()
     
     private var dataSource = [ProductGroup]()
-    private let store: Store<CartState>
+    private let store: Store<AppState>
     
-    init(store: Store<CartState>) {
+    init(store: Store<AppState>) {
         self.store = store
         super.init(nibName: nil, bundle: nil)
         
         self.store.subscribe(self) {
-            $0
+            $0.select{
+                $0.cart
+            }
         }
     }
     
@@ -140,7 +142,7 @@ extension ProductCartViewController: UITableViewDelegate {
         let uiswitch =  UISwitch()
         view.addSubview(uiswitch)
         let label = UILabel()
-        label.text = "Toko \(data.groupId)"
+        label.text = "Toko \(data.shopId)"
         view.addSubview(label)
         
         // When there is any item not selected

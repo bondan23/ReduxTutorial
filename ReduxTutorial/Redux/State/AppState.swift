@@ -23,6 +23,12 @@ struct CartState: Equatable, State {
     var grandTotal: GrandTotalState = .totalprice("Rp.0")
 }
 
+struct RecommState: Equatable, State {
+    var productRecom: [Recommendation] = []
+    var hideRecomm: Bool = false
+}
+
 struct AppState: Equatable, State {
     var cart = CartState()
+    var recomm = RecommState()
 }

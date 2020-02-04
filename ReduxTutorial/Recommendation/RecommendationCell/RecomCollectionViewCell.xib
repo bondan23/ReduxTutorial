@@ -61,6 +61,7 @@
             <connections>
                 <outlet property="atcButton" destination="R5h-PI-cdA" id="z7N-by-V8o"/>
                 <outlet property="itemName" destination="zZB-Ax-81b" id="E5n-cy-tde"/>
+                <outlet property="priceLabel" destination="ye6-vb-2n0" id="j0a-bO-wJ1"/>
                 <outlet property="shopName" destination="Xu4-IQ-ADk" id="qAx-Ju-Rai"/>
             </connections>
             <point key="canvasLocation" x="313.04347826086956" y="135.60267857142856"/>
